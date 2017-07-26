@@ -41,5 +41,10 @@ pipeline {
         echo 'Deploying to production'
       }
     }
+    stage('Goodbye') {
+      steps {
+        echo 'kthxbi'
+      }
+    }
   }
 }
